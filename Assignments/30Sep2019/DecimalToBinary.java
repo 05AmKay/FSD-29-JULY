@@ -7,8 +7,6 @@ class DecimalToBinary{
 		int num = sc.nextInt();
 		int rem;
 		int binary = 0, i =1;
-
-		// System.out.println(str);
 		
 		while(num>0){
 			rem = num % 2;
